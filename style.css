@@ -1,0 +1,76 @@
+*{
+    box-sizing: Border-Box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 8% 92%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+p{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 145px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}  
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav input{
+    position: center;
+    top: 8px;
+    height: 40px;
+    border-radius: 17px 0px 0px 17px;
+    font-size: large;
+    width: 500px;
+    background-color: rgba(20, 20, 20, 0.616);
+}
+
+
+.cuadriculaVideos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 80px;
+}
+
+#lupa{
+    display: flex;
+    background-color: rgb(36,36,36);
+    height: 40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-width: 1px 1px 1px 0px;
+    border-color: rgb(70 70 70);
+}
